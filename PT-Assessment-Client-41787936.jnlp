@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<jnlp spec="1.0+" codebase="https://assessment.netacad.net" href="virtuoso/xpass/PT-Assessment-Client-41787936.jnlp?ER_MARKER=6D695072664B7668536645344A2B7870487A434565773D3D">
+  <information>
+    <title>Cisco Packet Tracer Player for NetSpace</title>
+    <vendor>Cisco Systems, Inc.</vendor>
+    <homepage href="index.html"/>
+    <description>This program allows NetSpace users to launch Packet-Tracer-related activities from NetSpace assessments.</description>
+    <description kind="short">Supports Packet Tracer on assessments.</description>
+  </information>
+  <security>
+      <all-permissions/>
+  </security>
+  <resources>
+    <j2se version="9+" href="http://java.sun.com/products/autodl/j2se" max-heap-size="256M" />
+    <j2se version="1.7+" href="http://java.sun.com/products/autodl/j2se" max-heap-size="256M" />
+    <jar href="jars/ptplayer-zazu5-1.jar"/>
+    <jar href="jars/ptplayer-zazu5-2.jar"/>
+  </resources>
+  <application-desc main-class="xpass.bootstrap.XPassProgram">
+    <argument>null</argument>
+    <argument>null</argument>
+    <argument>null</argument>
+    <argument>null</argument>
+    <argument>41787936</argument>
+    <argument>https://assessment.netacad.net</argument>
+    <argument>6D695072664B7668536645344A2B7870487A434565773D3D</argument>
+    <argument>zenz7tDp-P8k3CDq_8wuwuHc08fH0ev4</argument>
+  </application-desc>
+</jnlp> 
+
